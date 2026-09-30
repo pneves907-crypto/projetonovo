@@ -1,0 +1,8 @@
+{
+  "name": "World Auto Center & AutoZ Hub",
+  "description": "E-commerce de autopeças e Centro Automotivo especializado. Pneus, baterias, óleos, freios e alinhamento com inspeção digital e técnicos certificados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

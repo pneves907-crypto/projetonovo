@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 250" fill="none" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@1,900&amp;display=swap');
+      .brand-red { fill: #E11924; }
+      .brand-navy { fill: #0B2253; }
+      .brand-white { fill: #FFFFFF; }
+      .font-brand {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        font-style: italic;
+        font-weight: 900;
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(10, 0)">
+    <!-- STYLIZED RED 'W' -->
+    <g transform="translate(0, 5)">
+      <!-- Left aerodynamic wing/spike -->
+      <path d="M 5 55 L 68 55 L 50 135 L 75 135 L 112 55 L 158 55 L 142 90 L 165 90 L 126 170 L 78 170 L 52 118 L 32 170 L 0 170 Z" class="brand-red" />
+      <!-- Stylized dynamic cut on W -->
+      <polygon points="5,55 35,38 70,55" class="brand-red" />
+    </g>
+
+    <!-- 'orld' in Deep Navy -->
+    <text x="175" y="148" font-size="124" letter-spacing="-3" class="brand-navy font-brand">orld</text>
+
+    <!-- 'A' in Stylized Red with connected Underline -->
+    <g transform="translate(150, 60)">
+      <!-- Red 'A' -->
+      <text x="0" y="172" font-size="142" letter-spacing="-4" class="brand-red font-brand">A</text>
+      <!-- Red underline extending beneath 'uto' -->
+      <polygon points="90,166 345,166 330,180 90,180" class="brand-red" />
+    </g>
+
+    <!-- 'uto' in Deep Navy -->
+    <text x="272" y="232" font-size="124" letter-spacing="-3" class="brand-navy font-brand">uto</text>
+  </g>
+</svg>
